@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Tatiana Sycheva
-title: Data Scientist        Dublin, Ireland      (eligible to work without restrictions)
+title: Data Scientist, Dublin, Ireland, (eligible to work without restrictions)
 
 email: avdeenkovatat@gmail.com
 # email_title: Email (Email title override)
@@ -21,18 +21,18 @@ darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  https://github.com/avdtoto
+github_username:  avdtoto
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: https://www.linkedin.com/in/tatiana-sycheva-22067a273/
+linkedin_username: tatiana-sycheva-22067a273/
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # orcid_username: 0000-0000-0000-0000
-googlescholar: https://www.scopus.com/authid/detail.uri?authorId=57211297624
+googlescholar: 57211297624
 
 # Additional icon links
 additional_links:
