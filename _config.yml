@@ -7,12 +7,13 @@ version: 2
 
 # Personal info
 name: Tatiana Sycheva
-title: Data Scientist,                         Dublin, Ireland                 (eligible to work without restrictions)
+title: Data Scientist               
 
 email: avdeenkovatat@gmail.com
 # email_title: Email (Email title override)
 phone: +353857821868
 # phone_title: Phone (Phone title override)
+city: Dublin, Ireland  (eligible to work without restrictions)
 tg: Owl_toto
 # website_title: Web (Website title override)
 
@@ -27,7 +28,7 @@ github_username:  avdtoto
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: tatiana-sycheva-22067a273/
+linkedin_username: tatiana-sycheva
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -48,18 +49,18 @@ additional_links:
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
-
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    # - Lists
+    # - Tables
+    # - <a href="google.com">Links</a>
+    # - Images ![alt text](/images/landscape-trees.jpg "Trees")
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: ![alt text](/images/landscape-trees.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Graduate of HSE University with a Master's degree in Data Science with honors. I have 4 years of experience in data analysis and scientific research at an R&D company affiliated with D. Mendeleev University of Chemical Technology. I have worked with statistical analysis, data mining, and data scraping in biotechnology projects and contributed to the publication of scientific articles. During my studies, I explored Graph Neural Networks (GNNs) and Generative Adversarial Networks (GANs) and developed machine learning models for various tasks. Co-author of four biotechnology articles published in Scopus-indexed journals, [H-index = 4](https://www.scopus.com/authid/detail.uri?authorId=57211297624).
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
 
 content:
   - title: Projects # Title for the section
