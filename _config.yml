@@ -56,7 +56,7 @@ additional_links:
     # - 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: image ![alt text](/images/landscape-trees.jpg)
+about_profile_image: images/landscape-trees.jpg
 about_content: | # this will include new lines to allow paragraphs
   Graduate of HSE University with a Master's degree in Data Science with honors. I have 4 years of experience in data analysis and scientific research at an R&D company affiliated with D. Mendeleev University of Chemical Technology. I have worked with statistical analysis, data mining, and data scraping in biotechnology projects and contributed to the publication of scientific articles. During my studies, I explored Graph Neural Networks (GNNs) and Generative Adversarial Networks (GANs) and developed machine learning models for various tasks. Co-author of four biotechnology articles published in Scopus-indexed journals, [H-index = 4](https://www.scopus.com/authid/detail.uri?authorId=57211297624).
   Images ![alt text](/images/landscape-trees.jpg "Trees")
