@@ -9958,7 +9958,7 @@ h6,
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   transition: .5s;
 }
 
@@ -9967,8 +9967,8 @@ h6,
   opacity: 1;
   width: calc(100% - 60px);
   height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
+  top: 25px;
+  left: 25px;
 }
 
 .testimonial-carousel .owl-dots {
