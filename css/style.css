@@ -9952,7 +9952,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = strip_tags($_POST["subject"]);
     $message = strip_tags($_POST["message"]);
 
-    $to = "your-email@example.com"; // Your email address
+    $to = "owl0toto@gmail.com"; // Your email address
     $headers = "From: " . $email . "\r\n" .
                "Reply-To: " . $email . "\r\n" .
                "Content-Type: text/plain; charset=UTF-8";
@@ -10033,7 +10033,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 .contact-form .help-block ul {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   list-style-type: none;
 }
