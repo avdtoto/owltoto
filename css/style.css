@@ -9944,7 +9944,7 @@ h6,
   top: 30px;
   left: 30px;
 } */
-<form action="send_email.php" method="post">
+/* <form action="send_email.php" method="post">
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags($_POST["name"]);
@@ -9967,7 +9967,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Invalid request!";
 }
-?>
+?> */
 
 .portfolio-item .portfolio-btn {
     position: absolute;
