@@ -9944,6 +9944,31 @@ h6,
   top: 30px;
   left: 30px;
 } */
+<form action="send_email.php" method="post">
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = strip_tags($_POST["name"]);
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+    $subject = strip_tags($_POST["subject"]);
+    $message = strip_tags($_POST["message"]);
+
+    $to = "your-email@example.com"; // Your email address
+    $headers = "From: " . $email . "\r\n" .
+               "Reply-To: " . $email . "\r\n" .
+               "Content-Type: text/plain; charset=UTF-8";
+
+    $body = "Name: $name\nEmail: $email\n\nSubject: $subject\n\nMessage:\n$message";
+
+    if (mail($to, $subject, $body, $headers)) {
+        echo "Message sent successfully!";
+    } else {
+        echo "Failed to send message. Please try again.";
+    }
+} else {
+    echo "Invalid request!";
+}
+?>
+
 .portfolio-item .portfolio-btn {
     position: absolute;
     width: 100%;
