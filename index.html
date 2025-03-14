@@ -84,19 +84,17 @@
                 <p></p>
                 
                 <!-- Social Media Links -->
-                <div class="d-flex justify-content-start mb-4">
-                    <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/tatiana-sycheva-22067a273/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-                <div class="d-flex justify-content-start mb-4">
-
-                <div class="d-flex align-items-center">
-                    <span id="email-text" class="mr-2">tatiana.sycheva@example.com</span>
-                    <button class="btn btn-light btn-social" onclick="copyEmail()">
-                        <i class="far fa-copy"></i>
-                    </button>
-                </div>
+            <div class="d-flex justify-content-start mb-4">
+                <!-- LinkedIn Button -->
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/tatiana-sycheva-22067a273/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            
+                <!-- Email Copy Icon -->
+                <button class="btn btn-light btn-social" onclick="copyEmail()" title="Copy Email">
+                    <img src="email-icon.png" alt="Email Icon" width="30" height="30">
+                </button>
+            </div>
              </div>
 
                 <!-- Download CV Button -->
@@ -592,14 +590,14 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-    function copyEmail() {
-        var emailText = document.getElementById("email-text").innerText;
-        navigator.clipboard.writeText(emailText).then(function() {
-            alert("Email copied: " + emailText);
-        }, function(err) {
-            console.error("Error copying email: ", err);
-        });
-    }
+        function copyEmail() {
+            var emailText = "tatiana.sycheva@example.com"; // Замените на ваш email
+            navigator.clipboard.writeText(emailText).then(function() {
+                alert("Email copied!");
+            }, function(err) {
+                console.error("Error copying email: ", err);
+            });
+        }
     </script>
 
 
