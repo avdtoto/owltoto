@@ -9761,14 +9761,14 @@ h6,
   border-radius: 25px;
 }
 
-.scroll-to-bottom {
+/* .scroll-to-bottom {
   position: fixed;
   width: 20px;
   left: calc(50% - 10px);
   bottom: 30px;
   z-index: 11;
   animation: action 1s infinite alternate;
-}
+} */
 
 .back-to-top {
   position: fixed;
