@@ -51,7 +51,7 @@
 
 
     <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!--     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -59,17 +59,16 @@
                         <span aria-hidden="true">&times;</span>
                     </button>        
                     <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
+<!--                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --> 
     <!-- Video Modal End -->
 
 
-    <!-- Header Start -->
 <!-- Header Start -->
 <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
     <div class="container">
@@ -85,21 +84,19 @@
                 <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                 <div class="typed-text d-none">Data Scientist, Data Analyst, Data Researcher</div>
 
-                <!-- Social Media Links -->
-                <div class="d-flex justify-content-start mb-4">
+                <!-- Social Media Links & CV Button in the Same Row -->
+                <div class="d-flex justify-content-start align-items-center mb-4">
                     <!-- LinkedIn Button -->
                     <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/tatiana-sycheva-22067a273/" target="_blank">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
 
                     <!-- Email Copy Icon -->
-                    <button class="btn btn-light btn-social" onclick="copyEmail()" title="Copy Email">
-                        <img src="img/email.jpg" alt="" width="30" height="27">
+                    <button class="btn btn-light btn-social mr-2" onclick="copyEmail()" title="Copy Email">
+                        <img src="img/envelope.png" alt="Email Icon" width="30" height="27">
                     </button>
-                </div>
 
-                <!-- Download CV Button -->
-                <div class="d-flex align-items-center justify-content-start pt-3">
+                    <!-- Download CV Button -->
                     <a href="img/cv.pdf" class="btn btn-outline-light">Download CV</a>
                 </div>
             </div>
@@ -126,15 +123,13 @@
                     <p>During my studies, I explored Graph Neural Networks (GNNs), Generative Adversarial Networks (GANs) and developed machine learning models for various tasks. I am a co-author of four biotechnology articles published in Scopus-indexed journals.</p>
                     <p>I am currently working as a Data Scientist remotely at the largest Russian online retail company <a href="https://en.wikipedia.org/wiki/Wildberries" target="_blank">Wildberries</a></p>
 </p> 
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Tatiana Sycheva</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Master's Degree in Computer Science (with honors)</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">owl0toto@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Ireland, Dublin</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Eligible to work without restrictions <span class="text-secondary"></span></h6></div>
-                    </div>
-<!--                     <a href="" class="btn btn-outline-primary mr-4">Hire Me</a> -->
-<!--                     <a href="" class="btn btn-outline-primary">Learn More</a> -->
+                <div class="row mb-3">
+                    <div class="col-sm-6 py-2"><h6><strong>Name:</strong> <span class="text-secondary">Tatiana Sycheva</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6><strong>Degree:</strong> <span class="text-secondary">Master's Degree in Computer Science (with honors)</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6><strong>Email:</strong> <span class="text-secondary">owl0toto@gmail.com</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6><strong>Address:</strong> <span class="text-secondary">Ireland, Dublin</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6><strong>Eligible to work without restrictions</strong></h6></div>
+                </div>
                 </div>
             </div>
         </div>
@@ -142,62 +137,59 @@
     <!-- About End -->
 
 
-    <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Master's Degree In Computer Science with honors</h5>
-                            <p class="mb-2"><strong>HSE University</strong> | <small>2022 - 2024</small></p>
-                            <p>Courses: Applied Statistics, Linear Algebra in Applications, Information Theory and Combinatorial Theory of Search, Machine Learning and Data Mining, Deep Learning, Graph Algorithms, Large Scale Machine Learning, Modern Methods of Data Analysis, LLM, NLP.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Structural Biology and Biotechnology</h5>
-                            <p class="mb-2"><strong>Lomonosov Moscow State University</strong> | <small>2021 - 2022</small></p>
-                            <p>Conducted research under the guidance of Professor Arthur Zalevsky at the Laboratory of Biomedicine, within the Belozersky Research Institute of Physical and Chemical Biology. Studied the role of low-abundance Zn proteins in neurodegenerative diseases.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Bachelor's degree in Industrial Ecology and Biotechnology</h5>
-                            <p class="mb-2"><strong>Mendeleev University of Chemical Technology</strong> | <small>2013 - 2017</small></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Expericence</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Data Scientist Intern</h5>
-                            <p class="mb-2"><strong>Wildberries</strong> | <small>March 2025 - Now</small></p>
-                            <p> I am working in the Horizontal ML, Computer Vision Team, focusing on Image-to-Text and Text-to-Image models and ViT for advanced image understanding and feature extraction. This includes fine-tuning deep learning models for tasks such as image captioning, multimodal embeddings and cross-modal retrieval, enhancing the interaction between textual and visual data.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Data Science Internship at TechSchool</h5>
-                            <p class="mb-2"><strong>Wildberries</strong> | <small>October 2024 - February 2025</small></p>
-                            <p>Completed an internship in the User Reputation Team. Fine-tuned RuBERT-base and RuBERT-large for profanity classification. Applied regular expressions, Named Entity Recognition (NER), word iteration with a classifier and BiLSTM with char-based tokenization. Additionally completed a course on Golang.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Scientific Researcher</h5>
-                            <p class="mb-2"><strong>JSC Sustainable Development</strong> | <small>October 2017 – June 2021</small></p>
-                            <p>Developed Python scripts for data mining and statistical analysis in biotechnology and sustainable development projects. Analyzed large datasets on atmospheric emissions and heavy metal pollutants, identifying key trends using Scikit-Learn, Pandas, Numpy, Matplotlib and Excel. Conducted hypothesis testing, presented findings at research seminars, and co-authored articles.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Qualification Start -->
+<div class="container-fluid py-5" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Education & Experience</h1>
         </div>
-    </div>
+        <div class="row d-flex align-items-start"> <!-- Fix alignment here -->
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Education</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Master's Degree In Computer Science with honors</h5>
+                        <p class="mb-2"><strong>HSE University</strong> | <small>2022 - 2024</small></p>
+                        <p>Courses: Applied Statistics, Linear Algebra in Applications, Information Theory and Combinatorial Theory of Search, Machine Learning and Data Mining, Deep Learning, Graph Algorithms, Large Scale Machine Learning, Modern Methods of Data Analysis, LLM, NLP.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Structural Biology and Biotechnology</h5>
+                        <p class="mb-2"><strong>Lomonosov Moscow State University</strong> | <small>2021 - 2022</small></p>
+                        <p>Conducted research under the guidance of Professor Arthur Zalevsky at the Laboratory of Biomedicine, within the Belozersky Research Institute of Physical and Chemical Biology. Studied the role of low-abundance Zn proteins in neurodegenerative diseases.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Bachelor's degree in Industrial Ecology and Biotechnology</h5>
+                        <p class="mb-2"><strong>Mendeleev University of Chemical Technology</strong> | <small>2013 - 2017</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Experience</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Data Scientist Intern</h5>
+                        <p class="mb-2"><strong>Wildberries</strong> | <small>March 2025 - Now</small></p>
+                        <p> I am working in the Horizontal ML, Computer Vision Team, focusing on Image-to-Text and Text-to-Image models and ViT for advanced image understanding and feature extraction. This includes fine-tuning deep learning models for tasks such as image captioning, multimodal embeddings and cross-modal retrieval, enhancing the interaction between textual and visual data.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Data Science Internship at TechSchool</h5>
+                        <p class="mb-2"><strong>Wildberries</strong> | <small>October 2024 - February 2025</small></p>
+                        <p>Completed an internship in the User Reputation Team. Fine-tuned RuBERT-base and RuBERT-large for profanity classification. Applied regular expressions, Named Entity Recognition (NER), word iteration with a classifier and BiLSTM with char-based tokenization. Additionally completed a course on Golang.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Scientific Researcher</h5>
+                        <p class="mb-2"><strong>JSC Sustainable Development</strong> | <small>October 2017 – June 2021</small></p>
+                        <p>Developed Python scripts for data mining and statistical analysis in biotechnology and sustainable development projects. Analyzed large datasets on atmospheric emissions and heavy metal pollutants, identifying key trends using Scikit-Learn, Pandas, Numpy, Matplotlib and Excel. Conducted hypothesis testing, presented findings at research seminars, and co-authored articles.</p>
+                    </div>
+                </div
+
     <!-- Qualification End -->
 
 
@@ -352,8 +344,7 @@
                     <a href="https://github.com/avdtoto/MuseGan_project" target="_blank" class="portfolio-btn text-center d-flex flex-column align-items-center justify-content-center text-decoration-none">
                         <h6 class="text-white font-weight-bold mb-2">MuseGAN: music generation with GANs</h6>
                         <p class="text-white mb-0">
-                            Developed a GAN-based model for multi-bar music generation using the JSB16thSeparated dataset, integrating melody, harmony, and rhythm.  The model generated realistic musical samples, demonstrating coherent composition ability.
-                        </p>
+                        Developed a GAN-based model for multi-bar music generation using the JSB16thSeparated dataset, integrating melody, harmony, and rhythm to produce realistic and coherent musical samples.                        </p>
                     </a>
                 </div>
             </div>
